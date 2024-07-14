@@ -1,4 +1,9 @@
 public class TiposVariaveis {
+	/**
+	 * Apresentação dos tipos de dados primitivos
+	 * @param args
+	 * @throws Exception
+	 */
     public static void main(String[] args) throws Exception {
         byte idade = 123;
 		short ano = 2021;
