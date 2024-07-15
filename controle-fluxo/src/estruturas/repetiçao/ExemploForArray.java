@@ -1,4 +1,4 @@
-package estruturas.repetição;
+package estruturas.repetiçao;
 public class ExemploForArray {
     public static void main(String[] args) {
         String alunos[] = { "FELIPE", "JONAS", "JULIA", "MARCOS" };
