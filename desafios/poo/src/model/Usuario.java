@@ -4,9 +4,9 @@ import produto.Iphone;
 public class Usuario {
     public static void main(String[] args) {
         
-        Iphone obj1 = new Iphone();
+        Iphone iphone = new Iphone();
         
-        obj1.ligar("+55 (85) 8951-5919");
+        iphone.ligar("+55 (85) 8951-5919");
         
     }
 }
