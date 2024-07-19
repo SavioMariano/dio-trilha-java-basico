@@ -15,34 +15,34 @@ O objetivo deste projeto foi criar um diagrama de classes utilizando os pilares 
 classDiagram
     class ReprodutorMusical {
         <<interface>>
-        +tocar()
-        +pausar()
-        +selecionarMusica(String nomeMusica)
+        +tocar() void
+        +pausar() void
+        +selecionarMusica(String nomeMusica) void
     }
 class AparelhoTelefonico {
         <<interface>>
-        +ligar(String numeroTelefone)
-        +atender()
-        +iniciarCorreioVoz()
+        +ligar(String numeroTelefone) void
+        +atender() void
+        +iniciarCorreioVoz() void
     }
 
 class NavegadorInternet {
         <<interface>>
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+        +exibirPagina(String url) void
+        +adicionarNovaAba() void
+        +atualizarPagina() void
     }
 
 class Iphone {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String nomeMusica)
-        +ligar(String numeroTelefone)
-        +atender()
-        +iniciarCorreioVoz()
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+        +tocar() void
+        +pausar() void
+        +selecionarMusica(String nomeMusica) void
+        +ligar(String numeroTelefone) void
+        +atender() void
+        +iniciarCorreioVoz() void
+        +exibirPagina(String url) void
+        +adicionarNovaAba() void
+        +atualizarPagina() void
 
     }
 
