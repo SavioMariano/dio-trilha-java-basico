@@ -6,8 +6,7 @@ public class Usuario {
         
         Iphone obj1 = new Iphone();
         
-        System.out.println(" ");
         obj1.ligar("+55 (85) 8951-5919");
-        System.out.println(" ");    
+        
     }
 }
