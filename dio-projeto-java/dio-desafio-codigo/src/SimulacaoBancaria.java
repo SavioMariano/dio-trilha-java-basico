@@ -22,7 +22,7 @@ public class SimulacaoBancaria {
                 case 2:
                     double sacado = scanner.nextDouble();
                     
-                    if (sacado < saldo){
+                    if (sacado <= saldo){
                         saldo -= sacado;
                         System.out.println("Saldo atual: " + saldo);
                     }
