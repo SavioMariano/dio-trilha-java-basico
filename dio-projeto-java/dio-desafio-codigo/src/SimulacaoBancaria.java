@@ -15,7 +15,7 @@ public class SimulacaoBancaria {
                 case 1:
                     double depositado = scanner.nextDouble();
                     
-                    if (depositado > saldo)
+                    if (depositado > 0)
                         saldo += depositado;
                         System.out.println("Saldo atual: " + saldo);
                     break;
