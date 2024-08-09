@@ -1,3 +1,5 @@
+package primeirodesafiocodigo;
+
 import java.util.Scanner;
 
 public class ControleSimplesDeSaques {
