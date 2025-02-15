@@ -10,6 +10,8 @@ public class Contador {
         System.out.println("Digite o segundo parametro:");
         int parametroDois = scan.nextInt();
 
+        scan.close();
+        
         try {
             contar(parametroUm, parametroDois);
         } catch (ParametrosInvalidosException e) {
