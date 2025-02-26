@@ -16,7 +16,24 @@ public class transacao {
         // TODO: Na linha abaixo, realize o cálculo do saldo final:
 
         if (transacaoUm > 0.0) {
-            
+            saldoInicial += transacaoUm;
+        }
+        else{
+            saldoInicial -= transacaoUm
+        }
+
+        if (transacaoDois > 0.0) {
+            saldoInicial += transacaDois;
+        }
+        else{
+            saldoInicial -= transacaoDois
+        }
+
+        if (transacaoTres > 0.0) {
+            saldoInicial += transacaoTres;
+        }
+        else{
+            saldoInicial -= transacaoTres;
         }
         
         // Saldo final
