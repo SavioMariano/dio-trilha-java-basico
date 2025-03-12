@@ -14,27 +14,8 @@ public class transacao {
         double transacaoDois = scanner.nextDouble();
         double transacaoTres = scanner.nextDouble();
         // TODO: Na linha abaixo, realize o cálculo do saldo final:
-
-        if (transacaoUm > 0.0) {
-            saldoInicial += transacaoUm;
-        }
-        else{
-            saldoInicial -= transacaoUm
-        }
-
-        if (transacaoDois > 0.0) {
-            saldoInicial += transacaDois;
-        }
-        else{
-            saldoInicial -= transacaoDois
-        }
-
-        if (transacaoTres > 0.0) {
-            saldoInicial += transacaoTres;
-        }
-        else{
-            saldoInicial -= transacaoTres;
-        }
+    
+        double saldoFinal = saldoInicial + transacaoUm + transacaoDois + transacaoTres;
         
         // Saldo final
         System.out.printf("%.2f\n", saldoFinal);
